@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gainsboro;
+}
+.title {
+  margin: 3rem 0px;
+  text-align: center;
+  background-color: lime;
+  padding: 1rem 0px;
+}
+.title p {
+  margin: 1rem 0px;
+  font-size: large;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+#img-caption {
+  text-align: center;
+  margin: 0.5rem 0px;
+  font-weight: bold;
+}
+#image {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#tribute-info h3 {
+  text-align: center;
+}
+
+#tribute-info ul {
+  padding: 1rem 2rem;
+  margin: 0px auto;
+}
+#tribute-info ul li {
+  margin: 10px 0px;
+}
+
+#tribute-info ul li span {
+  font-weight: bold;
+}
+
+a {
+  align-self: center;
+  width: 200px;
+  text-align: center;
+  margin: 1rem 0px;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: black;
+  padding: 0.5rem;
+  background-color: chartreuse;
+  text-decoration: none;
+}
