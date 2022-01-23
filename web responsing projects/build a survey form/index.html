@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="title">Survey</h1>
+        <p id="description">Developer Application</p>
+        <form id="surver-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input required type="text" id="name" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input required type="email" id="email" placeholder="Enter Your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label">Number (Optional)</label>
+                <input required type="number" id="number" min="15" max="120" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select name="" id="dropdown">
+                    <option value hidden>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="radio-btn">
+                    <input type="radio" name="radio-btn" value="definitely">
+                    Definitely
+                </label>
+                <label for="radio-btn">
+                    <input type="radio" name="radio-btn" value="maybe">
+                    Maybe
+                </label>
+                <label for="radio-btn">
+                    <input type="radio" name="radio-btn" value="not-sure">
+                    Not Sure
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label for="">
+                    <input type="checkbox" name="" id="" value="frontend"> Front-end Projects
+                </label>
+                <label for="">
+                    <input type="checkbox" name="" id="" value="backend"> Back-end Projects
+                </label>
+                <label for="">
+                    <input type="checkbox" name="" id="" value="data-visualization"> Data Visualization
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+
+            <button id="submit">Submit</button>
+
+        </form>
+
+
+
+
+
+        <!-- <form id="survey-form" action="">
+            <div class="form-field">
+                <label id="name-label" for="Name">Name</label>
+                <br>
+                <input type="text" id="name" placeholder="Type name">
+            </div>
+
+            <div class="form-field">
+                <label id="name-email" for="Email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="Type email">
+            </div>
+
+            <div class="form-field">
+                <label id="name-number" for="Number">Age</label>
+                <br>
+                <input type="number" id="number" min="15" max="100" placeholder="Type number">
+            </div>
+
+
+            <div class="form-field">
+                <h4>Front End Technology</h4>
+                <label for="">
+                    <input id="radioButtons" name="frontEnd" type="checkbox" value="react">
+                    React
+                </label>
+                <label for="">
+                    <input id="radioButtons" name="frontEnd" type="checkbox" value="angular">
+                    Angular
+                </label>
+                <label for="">
+                    <input id="radioButtons" name="frontEnd" value="vue" type="checkbox">
+                    Vue
+                </label>
+            </div>
+
+            <div class="form-field">
+                <label for="">Is there anything else you want to add?</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </form> -->
+
+    </div>
+</body>
+
+</html>
